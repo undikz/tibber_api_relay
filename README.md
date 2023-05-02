@@ -1,5 +1,6 @@
 # tibber_api_relay
 
+Skrevet for NodeMCU/ESP8266
 Denne koden henter morgendagens priser fra tibber sitt API, regner ut gjennomsnittsprisen for dagen og lukker en releutgang (PIN 3 blir HØY) basert på om prisen overstiger X antall øre over snitt i en eller flere timer i løpet av dagen. 
 Du kan se resultatet i serial output eller på en nettside publisert på samme IP som ESP8266.
 Pristerskelen for aktivering er på 10øre (0.10kr) pr. kWh. Pristerskelen kan endres via nettsiden.
